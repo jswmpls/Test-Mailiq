@@ -1,11 +1,11 @@
 @font-face {
   font-family: "PT Sans";
-  src: url("/Test-Mailiq/fonts/A PT_Sans-Web-Regular.ttf") format("truetype");
+  src: url("fonts/PT_Sans-Web-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "BERNIER";
-  src: url("/Test-Mailiq/fonts/A BERNIERRegular-Regular.otf") format("truetype");
+  src: url("fonts/BERNIERRegular-Regular.otf") format("truetype");
 }
 
 :root {
@@ -142,7 +142,7 @@ button {
   display: flex;
   justify-content: center;
   column-gap: 50px;
-  background-image: url(/Test-Mailiq/image/banner-bg.jpg);
+  background-image: url("image/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -189,7 +189,7 @@ button {
   line-height: 1.3;
   max-width: 190px;
   height: 100px;
-  background-image: url("/Test-Mailiq/image/bg-box.png");
+  background-image: url("image/bg-box.png");
   padding-inline: 50px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -210,7 +210,7 @@ button {
 }
 
 .for-card {
-  background-image: url("/Test-Mailiq/image/for-bg.jpg");
+  background-image: url("image/for-bg.jpg");
   padding-inline: 60px;
   padding-block: 30px;
   border: 5px solid var(--color-orange-light);
@@ -333,7 +333,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/Test-Mailiq/image/bg-tarif.jpg");
+  background-image: url("image/bg-tarif.jpg");
 }
 
 .tarif-list {
@@ -455,7 +455,7 @@ button {
 }
 .question-item-btn::after {
   padding-right: 20px;
-  content: url("/Test-Mailiq/icons/arrow.svg");
+  content: url("icons/arrow.svg");
   transition: transform 0.1s ease;
 }
 .question-item-btn[aria-expanded="true"]::after {
