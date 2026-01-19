@@ -1,11 +1,15 @@
 @font-face {
   font-family: "PT Sans";
-  src: url("fonts/PT_Sans-Web-Regular.ttf") format("truetype");
+  src: url("fonts/PTSans-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
   font-family: "BERNIER";
-  src: url("fonts/BERNIERRegular-Regular.otf") format("truetype");
+  src: url("fonts/BERNIERRegular-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
 }
 
 :root {
